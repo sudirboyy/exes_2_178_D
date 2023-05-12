@@ -56,7 +56,7 @@ void  BinarySearch()
 		}
 
 		if (item == sudir[mid])
-			cout << "\n" << item << " Found " << (mid + 1) << endl;
+			cout << "\n" << item << " Found in Array " << (mid + 1) << endl;
 		else
 			cout << "\n" << item << " Not Found \n";
 		cout << "\nNumber of comparisons: " << ctr << endl;
